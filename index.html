@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ZUGI</title>
+	<link rel="stylesheet" href="CSS/style.css">
+	
+</head>
+<body>
+<div class="header">
+	<div class="container">
+		<div class="logo">
+			<a href="index.html" class="logo-link">
+				<span class="logo-ring">
+					<span class="logo-badge">Z</span>
+				</span>
+				<h1>ZUGI</h1>
+			</a>
+		</div>
+		<div class="navi">
+			<ul>
+				<li><a href="#">MEN</a></li>
+				<li><a href="#">WOMEN</a></li>
+				<li><a href="#">KIDS</a></li>
+				<li><a href="#">BEAUTY</a></li>
+			</ul>
+		</div>
+		<div class="header-icons">
+			<a href="#">SEARCH</a>
+			<a href="#">CART (0)</a>
+			<a href="reg.html" class="register">REGISTRATION</a>
+		</div>
+	</div>
+</div>
+<div class="content">
+	<div class="container">
+		<div class="txt">
+			<h3>FASHION<br>THAT MOVES<br>WITH YOU.<br> ___</h3>
+		</div>
+		<div class="walk">
+			<h1>ZUGI</h1>
+		</div>
+		<div class="image"></div>
+		<div class="txt2">
+			<h3>NEW<br>COLLECTION<br>2026<br> ___</h3>
+		</div>
+	</div>
+</div>
+<div class="content2">
+	<div class="container">
+		<div class="g1"></div>
+		<div class="g2"></div>
+		<div class="g3"></div>
+		<div class="t1">
+			<h2>MEN</h2><br>
+			<p>Elvated everyday essentials.</p>
+			<br>
+			<a href="#">SHOP MEN →</a>
+		</div>
+		<div class="t2">
+			<h2>WOMEN</h2><br>
+			<p>Effortless style for every you.</p>
+			<br>
+			<a href="#">SHOP WOMEN →</a>
+		</div>
+		<div class="t3">
+			<h2>KIDS</h2><br>
+			<p>Comfort meet cool everyday.</p>
+			<br>
+			<a href="#">SHOP KIDS →</a>
+		</div>
+	</div>
+</div>
+<div class="content3">
+	<div class="container">
+		<div class="text">
+			<h2>NEW SEASON</h2>
+			<br>
+			<h1>NEW VIBES</h1>
+			<br>
+			<p>Discover everything <br> New and Now</p>
+			<br>
+		</div>
+		<div class="text2">
+			<a href="#">EXPLORE COLLECTION</a>
+		</div>
+		<div class="model"></div>
+	</div>
+</div>
+<div class="content4">
+	<div class="container">
+		<div class="footer-top">
+			<div class="footer-brand">
+				<h2>ZUGI</h2>
+				<p>Fashion that moves with you. Elevated basics for every day.</p>
+			</div>
+			<div class="footer-col">
+				<h4>SHOP</h4>
+				<ul>
+					<li><a href="#">Men</a></li>
+					<li><a href="#">Women</a></li>
+					<li><a href="#">Kids</a></li>
+					<li><a href="#">Beauty</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h4>HELP</h4>
+				<ul>
+					<li><a href="#">Track Order</a></li>
+					<li><a href="#">Returns &amp; Exchanges</a></li>
+					<li><a href="#">Shipping Info</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h4>COMPANY</h4>
+				<ul>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Careers</a></li>
+					<li><a href="#">Store Locator</a></li>
+				</ul>
+			</div>
+			<div class="footer-newsletter">
+				<h4>SEND US A MESSAGE</h4>
+				<p>Questions, feedback, or just say hi.</p>
+				<!--
+					FORMSPREE SETUP:
+					1. Go to https://formspree.io and create a free account.
+					2. Create a new form and copy your form endpoint (looks like
+					   https://formspree.io/f/xxxxabcd).
+					3. Replace YOUR_FORM_ID below with that ID.
+					4. Formspree will redirect to thankyou.html automatically
+					   because of the hidden _next field below.
+				-->
+				<form class="footer-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+					<input type="hidden" name="_next" value="thankyou.html">
+					<input type="text" name="name" placeholder="Your name" required>
+					<input type="email" name="email" placeholder="Your email" required>
+					<textarea name="comment" placeholder="Your comment" rows="3" required></textarea>
+					<button type="submit">SEND</button>
+				</form>
+			</div>
+		</div>
+		<div class="footer-divider"></div>
+		<div class="footer-bottom">
+			<p>&copy; 2026 ZUGI. All rights reserved.</p>
+			<div class="footer-social">
+				<a href="#">INSTAGRAM</a>
+				<a href="#">FACEBOOK</a>
+				<a href="#">TIKTOK</a>
+			</div>
+			<div class="footer-legal">
+				<a href="#">Privacy Policy</a>
+				<a href="#">Terms of Service</a>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+	document.querySelectorAll('form[data-disabled]').forEach(function (form) {
+		form.addEventListener('submit', function (e) {
+			e.preventDefault();
+			alert('This is a static demo site — this form is not connected to a database, so nothing is actually submitted.');
+		});
+	});
+});
+</script>
+</body>
+</html>
