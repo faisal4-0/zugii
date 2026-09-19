@@ -240,7 +240,7 @@ body{
 	margin: auto;
 	position: relative;
 	top: -426px;
-	background-image: url(../walk.png);
+	background-image: url(walk.png);
 	background-size: 650px 650px;
 
 }
@@ -275,7 +275,7 @@ body{
 	position: relative;
 	right: -50px;
 	top: 49px;
-	background-image: url(../men.jpg);
+	background-image: url(men.jpg);
 	background-size: cover;
 	/*border: solid skyblue;*/
 	border-radius: 10px;
@@ -294,7 +294,7 @@ body{
 	position: relative;
 	right: -815px;
 	top: -148px;
-	background-image: url(../kido.jfif);
+	background-image: url(kido.jfif);
 	background-size: cover;
 	/*border: solid yellow;*/
 	border-radius: 10px;
@@ -313,7 +313,7 @@ body{
 	position: relative;
 	right: -435px;
 	top: -350px;
-	background-image: url(../woman.jpg);
+	background-image: url(woman.jpg);
 	background-size: cover;
 	/*border: solid red;*/
 	border-radius: 10px;
@@ -396,7 +396,7 @@ body{
 	height: 500px;
 	width: 100%;
 	background: lightgray;
-	background-image: url(../model.png);
+	background-image: url(model.png);
 	background-repeat: no-repeat;
 	background-position: center center;
     background-size: 690px;
@@ -421,9 +421,9 @@ body{
   height: 40px;
   width: 220px;
   background: black;
-  display: flex;              /* makes centering easy */
-  justify-content: center;    /* horizontal center */
-  align-items: center;        /* vertical center */
+  display: flex;              
+  justify-content: center;   
+  align-items: center;        
   margin-top: 425px;
   position: relative;
   right: -50px;
@@ -432,12 +432,12 @@ body{
 
 .text2 a {
   display: inline-block;
-  color: white;               /* so text is visible on black */
-  text-decoration: none;      /* removes underline */
-  font-weight: bold;          /* optional – makes it look more like a button */
-  line-height: 30px;          /* also helps vertical centering */
-  width: 100%;                /* optional – makes the whole bar clickable */
-  text-align: center;         /* extra safety for centering */
+  color: white;               
+  text-decoration: none;      
+  font-weight: bold;         
+  line-height: 30px;        
+  width: 100%;                
+  text-align: center;         
 }
 
 .content4{
@@ -644,7 +644,7 @@ body.register-page {
   padding: 60px 50px;
   border-radius: 20px;
   overflow: hidden;
-  background-image: url('../moon.jfif'); /* put your image path here */
+  background-image: url('moon.jfif'); 
   background-size: cover;
   background-position: center;
 }
