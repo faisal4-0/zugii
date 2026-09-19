@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Edit User - ZUGI</title>
+	<title>Login - ZUGI</title>
 	<style>
 body{
 	font-family: Arial, sans-serif;
@@ -117,23 +117,24 @@ button:hover{
 	</style>
 </head>
 <body>
-<h2>Edit User</h2>
+<h2>Login</h2>
 
 <form action="#" method="post" data-disabled>
 
-<input type="text" name="name" placeholder="Name">
+Email:
+<br>
+<input type="email" name="email" placeholder="Enter Your Email">
 <br>
 <br>
-<input type="text" name="email" placeholder="Email">
+Password:
+<br>
+<input type="password" name="password" placeholder="Enter Your Password">
 <br>
 <br>
-<input type="text" name="password" placeholder="Password">
-<br>
-<br>
-<input type="submit" name="submit">
+<input type="submit" name="submit" value="Log In">
 
 </form>
-<p><a href="fetch.html">&larr; Back to users</a></p>
+<p><a href="index.html">&larr; Back to home</a></p>
 <script>
 	// ---- Cart (localStorage-based, replaces PHP sessions) ----
 	function getCart(){
